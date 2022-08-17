@@ -16,20 +16,23 @@
 }
 
 body {
-  background-color: gray;
+  background-image: url(../Dia2-helloword/imagens/fundo.png);
   margin: auto;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  max-width: 800px;
+  max-width: 1200px;
   min-width: 320px;
 }
 
 header {
-  background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+  background-color: #ffffff22;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   min-height: 150px;
   text-align: center;
   padding-top: 40px;
+  border-radius: 15px 15px 0px 0px;
 }
 
 h1 {
@@ -41,17 +44,18 @@ h1 {
 }
 
 footer {
-  background-color: rgb(0, 1, 33);
-  color: white;
+  background-color: #ffffff22;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 0px 0px 15px 15px;
+  color: rgb(4, 4, 4);
   text-align: center;
   font-size: 0.8em;
   padding: 5px;
-  color: white;
-  font-weight: bolder;
-  text-decoration: none;
 }
 
 footer a {
-  text-decoration:underline;
-  color: #2fa866;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: #0a0a0a;
 }
