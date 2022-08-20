@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+code {
+  font: 15px/22px arial, sans-serif;
+}
+html {
+  background: #222;
+  color: #fff;
+  padding: 15px;
+}
+body {
+  margin: 7% auto 0;
+  max-width: 650px;
+  min-height: 280px;
+  padding: 30px 0 15px;
+}
+* > body {
+  background: url(https://img.icons8.com/external-xnimrodx-blue-xnimrodx/256/000000/external-error-web-hosting-xnimrodx-blue-xnimrodx.png)
+    100% 5px no-repeat;
+  padding-right: 105px;
+}
+p {
+  margin: 11px 0 22px;
+  overflow: hidden;
+}
+ins {
+  color: #777;
+  text-decoration: none;
+}
+a img {
+  border: 0;
+}
+@media screen and (max-width: 772px) {
+  body {
+    background: none;
+    margin-top: 0;
+    max-width: none;
+    padding-right: 0;
+  }
+}
+#logo {
+  background: url(https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-site-avatars-soft-fill-soft-fill-juicy-fish-2.png)
+    no-repeat;
+  margin-left: -5px;
+}
+@media only screen and (min-resolution: 192dpi) {
+  #logo {
+    background: url(https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-site-avatars-soft-fill-soft-fill-juicy-fish-2.png)
+      no-repeat 0% 0%/100% 100%;
+    -moz-border-image: url(https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-site-avatars-soft-fill-soft-fill-juicy-fish-2.png)
+      0;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  #logo {
+    background: url(https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-site-avatars-soft-fill-soft-fill-juicy-fish-2.png)
+      no-repeat;
+    -webkit-background-size: 100% 100%;
+  }
+}
+#logo {
+  display: inline-block;
+  height: 54px;
+  width: 150px;
+}
+
+button {
+  width: 180px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: #0e76a8;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 7px;
+  color: #ffffff;
+}
+
+button :hover {
+  background-color: white;
+  color: #004fac;
+}
