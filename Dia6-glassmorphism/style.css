@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(img/aurora.png);
+  background-size: cover;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: #50008d;
+  text-align: center;
+}
+
+.card1 {
+  width: 100%;
+  height: 800px;
+  max-width: 700px;
+  background-color: transparent;
+  padding: 60px;
+  backdrop-filter: blur(px);
+  border: 2px solid #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: backdrop-filter 0.5s;
+}
+
+.text {
+  color: #ffffff;
+  position: relative;
+  top: 800px;
+  transition: top 0.5s;
+  padding: 70px;
+  text-align: justify;
+}
+
+.card1:hover .text {
+  top: 0;
+}
+
+.card1:hover {
+  backdrop-filter: blur(12px);
+}
