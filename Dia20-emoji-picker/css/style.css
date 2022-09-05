@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(90deg, #0d6086, #a5216c, #b9a919, #157bab);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  width: 80vw;
+  margin: 100px;
+}
+
+h1 {
+    color: #fff;
+    margin-top: -100px;
+    padding: 20px;
+}
+
+.emojionearea {
+  background-color: #fff;
+  border: 0;
+  border-radius: 10px;
+  border-bottom: 2px #01b064 solid;
+  display: block;
+  width: 100%;
+}
