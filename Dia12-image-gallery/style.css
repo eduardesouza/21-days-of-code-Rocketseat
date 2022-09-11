@@ -1,6 +1,6 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
 .container {
@@ -14,7 +14,7 @@
 
 .slider {
   height: 750px;
-  width: 100vw;
+  width: 1000vw;
   display: flex;
   perspective: 1000px;
   position: relative;
